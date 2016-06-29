@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>We deployed the Elastic stack.</title>
+
+    <meta name="description" content="We deployed the Elastic stack.">
+    <meta name="author" content="Jens Fischer">
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+
+    </script>
+
+    <style>
+      pre {
+        width: 800px !important;
+      }
+    </style>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<style>
+  .reveal img.noborder {
+    border:none;
+    box-shadow:none;
+    background:none;
+  }
+</style>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section>
+            <h2>We deployed the Elastic stack.</h2>
+            <h3>Nobody expected what happened next...</h3>
+            <h4>Jens Fischer @jensfischerhh</h4>
+        </section>
+
+        <!-- ================================================================= -->
+        <style>
+        .fa-spin-reverse {
+          -webkit-animation: fa-spin-reverse 2s infinite linear;
+          animation: fa-spin-reverse 2s infinite linear;
+        }
+        @-webkit-keyframes fa-spin-reverse {
+          100% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          0% {
+            -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+          }
+        }
+        @keyframes fa-spin-reverse {
+          100% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          0% {
+            -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+          }
+        }
+        </style>
+
+        <section data-transition="convex">
+          <section>
+            <div style="display: flex; font-size: 300%;">
+              <div style="flex: 0 0 50%; text-align: right;">
+                <strong>DEV</strong> <i class="fa fa-cog fa-spin"></i>
+              </div>
+              <div style="flex: 0 0 50%; text-align: left;">
+                <i class="fa fa-cog fa-spin-reverse"></i> <strong>OPS</strong>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div style="display: flex; font-size: 300%;">
+              <div style="flex: 0 0 40%; text-align: left;">
+                <strong>DEV</strong> <i class="fa fa-cog fa-spin"></i>
+              </div>
+              <div style="flex: 0 0 20%;">
+                <img src="firewall-hacker-720x380.jpg" class="noborder">
+              </div>
+              <div style="flex: 0 0 40%; text-align: right;">
+                <i class="fa fa-cog fa-spin-reverse"></i> <strong>OPS</strong>
+              </div>
+            </div>
+            <div style="display: flex;">
+              <div style="flex: 0 0 50%;">
+                (we)
+              </div>
+              <div style="flex: 0 0 50%;">
+                (them)
+              </div>
+            </div>
+          </section>
+
+          <section data-background-image="gestiefelter_kater1.jpg" data-background-transition="fade">
+            <blockquote style="font-size: 300%; background: rgba(255, 255, 255, 0.5);">
+              Can I haz<br>log files?
+            </blockquote>
+          </section>
+
+          <section data-background-image="elkstack.png" data-background-size="auto">
+          </section>
+        </section>
+
+        <!-- ================================================================= -->
+        <section data-background-image="kibana-qbox-elasticsearch.png" data-background-transition="convex">
+          <blockquote style="font-size: 300%; background: rgba(255, 255, 255, 0.5);">
+            Oh, THAT is happening live!
+          </blockquote>
+        </section>
+
+        <!-- ================================================================= -->
+        <section data-background-image="Fotolia_37876981_S-810x529.jpg" data-background-transition="convex">
+          <blockquote style="font-size: 300%; background: rgba(255, 255, 255, 0.5);">
+            Did you notice we're offline?
+          </blockquote>
+        </section>
+
+        <!-- ================================================================= -->
+        <section data-background-image="slow_requests.png" data-background-transition="convex">
+          <blockquote style="font-size: 300%; background: rgba(255, 255, 255, 0.5);">
+            requests slower than<br> <span style="color: #6ed0e0;"><strong>1s</strong></span>, <span style="color: #eab838;"><strong>2s</strong></span>, <span style="color: #e24d42;"><strong>5s</strong></span>
+          </blockquote>
+        </section>
+
+        <!-- ================================================================= -->
+        <section data-background-image="bi-business-intelligence-ts-100646689-primary.idge_.jpg" data-background-transition="convex">
+
+          <img src="tug-of-war-2-.png-1.jpg" class="fragment noborder">
+        </section>
+
+
+        <!-- ================================================================= -->
+        <section data-background-image="Che-Guevara-Logo.png" data-background-transition="convex">
+
+        </section>
+
+        <!-- ================================================================= -->
+        <section data-background-image="orders_dashboard.png" data-background-transition="convex">
+          <blockquote style="font-size: 300%; background: rgba(255, 255, 255, 0.5);">
+            Realtime analytics of orders
+          </blockquote>
+        </section>
+
+        <!-- ================================================================= -->
+        <section data-background-image="nike-just-do-it-logo.jpg" data-background-size="contain" data-background-transition="convex">
+
+        </section>
+
+        <!-- ================================================================= -->
+        <section data-transition="convex">
+          <h2>What we learned</h2>
+
+          <ul>
+            <li>Know your app in production</li>
+            <li>Teach Kibana to biz ppl</li>
+            <li>Stay curious and experiment</li>
+          </ul>
+        </section>
+
+        <!-- ================================================================= -->
+        <section data-transition="convex">
+          <h2>Image Sources</h2>
+
+          <ol style="font-size: 50%;">
+            <li><a href="http://orourketech.com/wp-content/uploads/2014/01/firewall-hacker-720x380.jpg">http://orourketech.com/wp-content/uploads/2014/01/firewall-hacker-720x380.jpg</a></li>
+            <li><a href="http://www.kinderundjugendmedien.de/images/gestiefelter_kater1.jpg">http://www.kinderundjugendmedien.de/images/gestiefelter_kater1.jpg</a></li>
+            <li><a href="https://www.freebsdnews.com/wp-content/uploads/elkstack.png">https://www.freebsdnews.com/wp-content/uploads/elkstack.png</a></li>
+            <li><a href="https://qbox.io/img/blog/kibana-qbox-elasticsearch.png">https://qbox.io/img/blog/kibana-qbox-elasticsearch.png</a></li>
+            <li><a href="http://kmrdpartners.com/wp-content/uploads/2015/07/Fotolia_37876981_S-810x529.jpg">http://kmrdpartners.com/wp-content/uploads/2015/07/Fotolia_37876981_S-810x529.jpg</a></li>
+            <li><a href="http://s3.amazonaws.com/www.businessintelligence.com/wp-content/uploads/2016/02/24125254/bi-business-intelligence-ts-100646689-primary.idge_.jpg">http://s3.amazonaws.com/www.businessintelligence.com/wp-content/uploads/2016/02/24125254/bi-business-intelligence-ts-100646689-primary.idge_.jpg</a></li>
+            <li><a href="http://www.performanceinpeople.co.uk/media/uploads/tug-of-war-2-.png-1.jpg">http://www.performanceinpeople.co.uk/media/uploads/tug-of-war-2-.png-1.jpg</a></li>
+            <li><a href="http://www.wacky-wear.com/Bags/Che-Guevara-Logo.png">http://www.wacky-wear.com/Bags/Che-Guevara-Logo.png</a></li>
+            <li><a href="https://imcclass.files.wordpress.com/2014/02/nike-just-do-it-logo.jpg">https://imcclass.files.wordpress.com/2014/02/nike-just-do-it-logo.jpg</a></li>
+          </ol>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true },
+            { src: 'plugin/notes/notes.js', async: true }
+        ]
+    });
+
+</script>
+
+</body>
+</html>

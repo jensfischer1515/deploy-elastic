@@ -1,6 +1,6 @@
 reveal:
   image: danidemi/docker-reveal.js:latest
   volumes:
-    - $PWD:/slides
+    - $PWD/slides:/slides
   ports:
     - "8000:8000"
